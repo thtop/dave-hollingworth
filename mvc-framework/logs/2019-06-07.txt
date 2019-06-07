@@ -1,0 +1,62 @@
+[07-Jun-2019 22:36:33 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 E:\xmapp\htdocs\dev\php-mvc\public\index.php(39): Core\Router->dispatch('products')
+#1 {main}
+Thrown in 'E:\xmapp\htdocs\dev\php-mvc\Core\Router.php' on line 134
+[07-Jun-2019 22:36:34 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 E:\xmapp\htdocs\dev\php-mvc\public\index.php(39): Core\Router->dispatch('favicon.ico')
+#1 {main}
+Thrown in 'E:\xmapp\htdocs\dev\php-mvc\Core\Router.php' on line 134
+[07-Jun-2019 22:43:09 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 E:\xmapp\htdocs\dev\php-mvc\public\index.php(39): Core\Router->dispatch('products')
+#1 {main}
+Thrown in 'E:\xmapp\htdocs\dev\php-mvc\Core\Router.php' on line 134
+[07-Jun-2019 22:43:09 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 E:\xmapp\htdocs\dev\php-mvc\public\index.php(39): Core\Router->dispatch('favicon.ico')
+#1 {main}
+Thrown in 'E:\xmapp\htdocs\dev\php-mvc\Core\Router.php' on line 134
+[07-Jun-2019 22:44:44 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 E:\xmapp\htdocs\dev\php-mvc\public\index.php(39): Core\Router->dispatch('products')
+#1 {main}
+Thrown in 'E:\xmapp\htdocs\dev\php-mvc\Core\Router.php' on line 134
+[07-Jun-2019 22:44:59 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 E:\xmapp\htdocs\dev\php-mvc\public\index.php(39): Core\Router->dispatch('products')
+#1 {main}
+Thrown in 'E:\xmapp\htdocs\dev\php-mvc\Core\Router.php' on line 134
+[07-Jun-2019 22:46:00 Europe/Berlin] Uncaught exception: 'Twig_Error_Loader' with message 'Unable to find template "Home/inde.html" (looked into: ../App/Views).'
+Stack trace: #0 E:\xmapp\htdocs\dev\php-mvc\vendor\twig\twig\lib\Twig\Loader\Filesystem.php(139): Twig_Loader_Filesystem->findTemplate('Home/inde.html')
+#1 E:\xmapp\htdocs\dev\php-mvc\vendor\twig\twig\lib\Twig\Environment.php(312): Twig_Loader_Filesystem->getCacheKey('Home/inde.html')
+#2 E:\xmapp\htdocs\dev\php-mvc\vendor\twig\twig\lib\Twig\Environment.php(378): Twig_Environment->getTemplateClass('Home/inde.html', NULL)
+#3 E:\xmapp\htdocs\dev\php-mvc\vendor\twig\twig\lib\Twig\Environment.php(347): Twig_Environment->loadTemplate('Home/inde.html')
+#4 E:\xmapp\htdocs\dev\php-mvc\Core\View.php(52): Twig_Environment->render('Home/inde.html', Array)
+#5 E:\xmapp\htdocs\dev\php-mvc\App\Controllers\Home.php(50): Core\View::renderTemplate('Home/inde.html', Array)
+#6 [internal function]: App\Controllers\Home->indexAction()
+#7 E:\xmapp\htdocs\dev\php-mvc\Core\Controller.php(48): call_user_func_array(Array, Array)
+#8 E:\xmapp\htdocs\dev\php-mvc\Core\Router.php(122): Core\Controller->__call('index', Array)
+#9 E:\xmapp\htdocs\dev\php-mvc\public\index.php(39): Core\Router->dispatch('')
+#10 {main}
+Thrown in 'E:\xmapp\htdocs\dev\php-mvc\vendor\twig\twig\lib\Twig\Loader\Filesystem.php' on line 215
+[07-Jun-2019 22:50:03 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 E:\xmapp\htdocs\dev\php-mvc\public\index.php(39): Core\Router->dispatch('products')
+#1 {main}
+Thrown in 'E:\xmapp\htdocs\dev\php-mvc\Core\Router.php' on line 134
+[07-Jun-2019 22:50:24 Europe/Berlin] Uncaught exception: 'Exception' with message 'Method neeAction not found in controllerApp\Controllers\Posts'
+Stack trace: #0 E:\xmapp\htdocs\dev\php-mvc\Core\Router.php(122): Core\Controller->__call('nee', Array)
+#1 E:\xmapp\htdocs\dev\php-mvc\public\index.php(39): Core\Router->dispatch('posts/nee')
+#2 {main}
+Thrown in 'E:\xmapp\htdocs\dev\php-mvc\Core\Controller.php' on line 53
+[07-Jun-2019 22:50:24 Europe/Berlin] PHP Fatal error:  Uncaught Twig_Error_Loader: Unable to find template "500.html" (looked into: ../App/Views). in E:\xmapp\htdocs\dev\php-mvc\vendor\twig\twig\lib\Twig\Loader\Filesystem.php:215
+Stack trace:
+#0 E:\xmapp\htdocs\dev\php-mvc\vendor\twig\twig\lib\Twig\Loader\Filesystem.php(139): Twig_Loader_Filesystem->findTemplate('500.html')
+#1 E:\xmapp\htdocs\dev\php-mvc\vendor\twig\twig\lib\Twig\Environment.php(312): Twig_Loader_Filesystem->getCacheKey('500.html')
+#2 E:\xmapp\htdocs\dev\php-mvc\vendor\twig\twig\lib\Twig\Environment.php(378): Twig_Environment->getTemplateClass('500.html', NULL)
+#3 E:\xmapp\htdocs\dev\php-mvc\vendor\twig\twig\lib\Twig\Environment.php(347): Twig_Environment->loadTemplate('500.html')
+#4 E:\xmapp\htdocs\dev\php-mvc\Core\View.php(52): Twig_Environment->render('500.html', Array)
+#5 E:\xmapp\htdocs\dev\php-mvc\Core\Error.php(69): Core\View::renderTemplate('500.html')
+#6 [internal function]: Core\Error::exceptionHandler(Object(Exception))
+#7 {main}
+  thrown in E:\xmapp\htdocs\dev\php-mvc\vendor\twig\twig\lib\Twig\Loader\Filesystem.php on line 215
+[07-Jun-2019 22:50:58 Europe/Berlin] Uncaught exception: 'Exception' with message 'Method neeAction not found in controllerApp\Controllers\Posts'
+Stack trace: #0 E:\xmapp\htdocs\dev\php-mvc\Core\Router.php(122): Core\Controller->__call('nee', Array)
+#1 E:\xmapp\htdocs\dev\php-mvc\public\index.php(39): Core\Router->dispatch('posts/nee')
+#2 {main}
+Thrown in 'E:\xmapp\htdocs\dev\php-mvc\Core\Controller.php' on line 53
